@@ -1,0 +1,37 @@
+{
+  "SourcePath": "C:\\Users\\ychu\\source\\repos\\TestForCodeCoverage\\",
+  "HitsFile": "C:\\Users\\ychu\\source\\repos\\TestForCodeCoverage\\coverage-hits.txt",
+  "ExtraAssemblies": [
+    "C:\\Users\\ychu\\source\\repos\\TestForCodeCoverage\\Test\\CalculatorTest\\bin\\Debug\\netcoreapp2.0\\dotnet-minicover.dll"
+  ],
+  "Assemblies": [
+    {
+      "Name": "Service",
+      "SourceFiles": {
+        "Service\\Calculator.cs": {
+          "Instructions": [
+            {
+              "Id": 1,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 9,
+              "EndColumn": 28,
+              "Class": "Service.Calculator",
+              "Method": "Add",
+              "MethodFullName": "System.Int32 Service.Calculator::Add(System.Int32,System.Int32)",
+              "Instruction": "IL_0001: ldarg arg1"
+            }
+          ]
+        }
+      },
+      "Locations": [
+        {
+          "File": "C:\\Users\\ychu\\source\\repos\\TestForCodeCoverage\\Test\\CalculatorTest\\bin\\Debug\\netcoreapp2.0\\Service.dll",
+          "BackupFile": "C:\\Users\\ychu\\source\\repos\\TestForCodeCoverage\\Test\\CalculatorTest\\bin\\Debug\\netcoreapp2.0\\Service.uninstrumented.dll",
+          "PdbFile": "C:\\Users\\ychu\\source\\repos\\TestForCodeCoverage\\Test\\CalculatorTest\\bin\\Debug\\netcoreapp2.0\\Service.pdb",
+          "BackupPdbFile": "C:\\Users\\ychu\\source\\repos\\TestForCodeCoverage\\Test\\CalculatorTest\\bin\\Debug\\netcoreapp2.0\\Service.uninstrumented.pdb"
+        }
+      ]
+    }
+  ]
+}

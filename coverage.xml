@@ -1,0 +1,8 @@
+<?xml-stylesheet type='text/xsl' href='coverage.xsl'?>
+<coverage profilerVersion="0" driverVersion="0" startTime="9999-12-31T23:59:59.9999999" measureTime="0001-01-01T00:00:00.0000000">
+  <module moduleId="a9215c86-a80f-454b-b75e-5c8cdd1e1449" name="Service" assembly="Service" assemblyIdentity="Service">
+    <method name="Add" class="Service.Calculator" excluded="false" instrumented="true" fullname="System.Int32 Service.Calculator::Add(System.Int32,System.Int32)">
+      <seqpnt visitcount="1" line="9" column="9" endline="9" endcolumn="28" excluded="false" document="C:\Users\ychu\source\repos\TestForCodeCoverage\Service\Calculator.cs" />
+    </method>
+  </module>
+</coverage>
