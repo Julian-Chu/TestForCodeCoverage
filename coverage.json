@@ -20,6 +20,17 @@
               "Method": "Add",
               "MethodFullName": "System.Int32 Service.Calculator::Add(System.Int32,System.Int32)",
               "Instruction": "IL_0001: ldarg arg1"
+            },
+            {
+              "Id": 2,
+              "StartLine": 14,
+              "EndLine": 14,
+              "StartColumn": 9,
+              "EndColumn": 28,
+              "Class": "Service.Calculator",
+              "Method": "Substract",
+              "MethodFullName": "System.Int32 Service.Calculator::Substract(System.Int32,System.Int32)",
+              "Instruction": "IL_0001: ldarg arg1"
             }
           ]
         }
